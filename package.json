@@ -1,0 +1,17 @@
+{
+    "name": "express-mongoose-api-generator",
+    "version": "1.0.0",
+    "description": "create a component to extend, base from express. Fastest way to create APIs",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ashleygwilliams/my_package.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ashleygwilliams/my_package/issues"
+    },
+    "homepage": "https://github.com/ashleygwilliams/my_package"
+}

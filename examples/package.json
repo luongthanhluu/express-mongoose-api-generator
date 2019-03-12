@@ -1,0 +1,22 @@
+{
+  "name": "express-modules-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "inspect": "node --debug ./app.js"
+  },
+  "author": "Luu Luong, luongthanhluu@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-modules": "file:..",
+    "mongoose": "^4.1.5"
+  }
+}
