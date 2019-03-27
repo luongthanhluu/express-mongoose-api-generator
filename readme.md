@@ -95,7 +95,7 @@ npm start
   "devDependencies": {},
   "dependencies": {
     "express": "^4.13.3",
-    "express-mongoose-api-generator": "1.0.0",
+    "@luongthanhluu/express-mongoose-api-generator": "1.0.7",
     "mongoose": "^4.1.5"
   }
 }
