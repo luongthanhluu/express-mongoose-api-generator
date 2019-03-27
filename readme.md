@@ -184,7 +184,7 @@ Options | Default | Example | Description
 `appendRouters` | `array`: null | `[{ method: 'get',router: '/:id/testNewRoute',controller:'getById',validate: 'getById'}]` | to add new router
 `appendPriorityRouters` | `array`: null | `[{ method: 'get',router: '/testNewRoute', controller: 'getById', validate: 'getById'}]` | to add new router with hight priority
 `controller` | `Object`: Class Controller |  `const expressModule = require('express-mongoose-api-generator'); const controller = new expressModule .Controller('name');`| to replace default controller, read more docs about controller to extendable ()
-`defaultRouters` | `Array` : [...]| | to replace default routers list, so you can remove some APIs that you dont want to export
+`defaultRouters` | `Array` : [...]| `[{method: 'get', router: '', controller: 'getList',validate: 'getList'},...]`| to replace default routers list, so you can remove some APIs that you dont want to export
 ## License
 ----
 
