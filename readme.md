@@ -10,8 +10,11 @@ Fastest way to create APIs, base form Express framework and Mongoose. Easy to ex
   
 # Dependencies
 [Nodejs > 8.xx](https://nodejs.org/)
+
 [Express Farmwork](https://github.com/expressjs/express)
+
 [mongoose libs](https://mongoosejs.com/)
+
 [body-parser libs](https://www.npmjs.com/package/body-parser)
 
 ## Installation
@@ -19,7 +22,7 @@ Fastest way to create APIs, base form Express framework and Mongoose. Easy to ex
 Dillinger requires [Node.js](https://nodejs.org/) v8+ to run.
 
 ```sh
-$ npm install express-mongoose-api-generator --save
+$ npm install @luongthanhluu/express-mongoose-api-generator --save
 ```
 ## Usage
 `product.js` file:
