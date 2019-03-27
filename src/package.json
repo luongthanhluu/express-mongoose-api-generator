@@ -1,0 +1,35 @@
+{
+  "name": "@luongthanhluu/express-mongoose-api-generator",
+  "version": "1.0.0",
+  "description": "create a component to extend, base from express. Fastest way to create APIs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luongthanhluu/express-mongoose-api-generator.git"
+  },
+  "keywords": [
+    "express",
+    "express api",
+    "mongoose",
+    "generator express api",
+    "generator",
+    "api"
+  ],
+  "author": "Luu Luong, luongthanhluu@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luongthanhluu/express-mongoose-api-generator/issues"
+  },
+  "homepage": "https://github.com/luongthanhluu/express-mongoose-api-generator/",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongoose": "^4.1.5",
+    "body-parser": "1.18.3"
+  }
+}
