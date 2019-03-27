@@ -1,4 +1,4 @@
-const expressModule = require('express-modules');
+const expressModule = require('@luongthanhluu/express-mongoose-api-generator');
 const mongoose      = require('mongoose');
 const Categories = mongoose.model('Categories');
 const Validate = require('./validate');

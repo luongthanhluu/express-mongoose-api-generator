@@ -1,4 +1,4 @@
-const expressModule = require('express-modules');
+const expressModule = require('@luongthanhluu/express-mongoose-api-generator');
 
 class Validate extends expressModule.Validate {
     constructor() {

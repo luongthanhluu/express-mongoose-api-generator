@@ -1,4 +1,4 @@
-const expressModule = require('express-modules');
+const expressModule = require('@luongthanhluu/express-mongoose-api-generator');
 
 class Controller extends  expressModule.Controller {
     constructor(name, model) {
