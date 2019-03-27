@@ -19,7 +19,7 @@ Fastest way to create APIs, base form Express framework and Mongoose. Easy to ex
 
 ## Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v8+ to run.
+express-mongoose-api-generator requires [Node.js](https://nodejs.org/) v8+ to run.
 
 ```sh
 $ npm install @luongthanhluu/express-mongoose-api-generator --save
