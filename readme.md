@@ -27,7 +27,7 @@ $ npm install @luongthanhluu/express-mongoose-api-generator --save
 ## Usage
 `product.js` file:
 ```javascript
-const expressModule = require('express-mongoose-api-generator');
+const expressModule = require('@luongthanhluu/express-mongoose-api-generator');
 const mongoose      = require('mongoose');
 const Items = mongoose.model('Items'); // we need define Items model already, see #Example for clear
 
@@ -116,7 +116,7 @@ module.exports = ItemssSchema;
   ````
   - step 3: create `items.js` file
   ```javascript
-const expressModule = require('express-mongoose-api-generator');
+const expressModule = require('@luongthanhluu/express-mongoose-api-generator');
 const mongoose      = require('mongoose');
 const Items = mongoose.model('Items');
 
