@@ -188,10 +188,11 @@ Options | Default | Example | Description
 `appendPriorityRouters` | `array`: null | `[{ method: 'get',router: '/testNewRoute', controller: 'getById', validate: 'getById'}]` | to add new router with hight priority
 `controller` | `Object`: Class Controller |  `const expressModule = require('express-mongoose-api-generator'); const controller = new expressModule .Controller('name');`| to replace default controller, read more docs about controller to extendable ()
 `defaultRouters` | `Array` : [...]| `[{method: 'get', router: '', controller: 'getList',validate: 'getList'},...]`| to replace default routers list, so you can remove some APIs that you dont want to export
+`acceptFields` | `array`: null | `['_id', 'name', 'isMenu']` | limit fields public to APIs
 ## License
 ----
 
-MIT
+ISC
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 

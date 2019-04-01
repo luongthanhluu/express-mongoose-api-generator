@@ -1,6 +1,6 @@
 {
   "name": "@luongthanhluu/express-mongoose-api-generator",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "create a component to extend, base from express. Fastest way to create APIs",
   "main": "src/index.js",
   "repository": {
