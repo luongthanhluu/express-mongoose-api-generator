@@ -15,9 +15,9 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
+    "@luongthanhluu/express-mongoose-api-generator": "^1.0.4",
     "express": "^4.13.3",
     "express-modules": "file:..",
-    "mongoose": "^4.1.5",
-    "@luongthanhluu/express-mongoose-api-generator": "1.0.4"
+    "mongoose": "^4.1.5"
   }
 }

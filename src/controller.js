@@ -25,7 +25,6 @@ class Controller {
             }
             else{
                 params = req.query;
-                console.log(params)
             }
 
             const results = await Promise.all([req.service.find(params, acceptFields), req.service.count(params)]).catch((err) => {

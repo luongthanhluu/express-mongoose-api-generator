@@ -186,34 +186,20 @@ Options | Default | Example | Description
 `limitItemPerPage` | `int` : 100 | `{limitItemPerPage: 50}` |limit items return per page when get list items
 `appendRouters` | `array`: null | `[{ method: 'get',router: '/:id/testNewRoute',controller:'getById',validate: 'getById'}]` | to add new router
 `appendPriorityRouters` | `array`: null | `[{ method: 'get',router: '/testNewRoute', controller: 'getById', validate: 'getById'}]` | to add new router with hight priority
-`controller` | `Object`: Class Controller |  `const expressModule = require('express-mongoose-api-generator'); const controller = new expressModule .Controller('name');`| to replace default controller, read more docs about controller to extendable ()
+`controller` | `Object`: Class Controller |  `const expressModule = require('express-mongoose-api-generator'); const controller = new expressModule .Controller('name');`| to replace default controller, read more docs about [controller](https://github.com/luongthanhluu/express-mongoose-api-generator/blob/master/src/controller.js) to extendable
 `defaultRouters` | `Array` : [...]| `[{method: 'get', router: '', controller: 'getList',validate: 'getList'},...]`| to replace default routers list, so you can remove some APIs that you dont want to export
 `acceptFields` | `array`: null | `['_id', 'name', 'isMenu']` | limit fields public to APIs
 ## License
 ----
 
-ISC
+MIT
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
 
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
+   [git-repo-url]: <https://github.com/luongthanhluu/express-mongoose-api-generator.git>
+   [Luu Luong]: <https://www.linkedin.com/in/luu-luong/>
    [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
    [express]: <http://expressjs.com>
    [AngularJS]: <http://angularjs.org>
    [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
