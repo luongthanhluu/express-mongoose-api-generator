@@ -176,7 +176,7 @@ DB_CONNECTION =     localhost:27017/express-modules-test
   npm start ##server will start at default port 8080
   ```
   
-  Now you can assess GET http://localhost/api/products to get list items
+  Now you can assess GET http://localhost:8080/api/products to get list items
 
 ## Options
 
